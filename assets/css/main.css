@@ -1,0 +1,135 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+
+#responsive{
+	background-color: red;
+}
+h1{
+	font-family: 'Raleway';
+	color: #292b2c;
+	font-weight: 900;
+	text-align: center;
+	font-size: 40px;
+}
+
+h4{
+	font-family: 'Raleway';
+	color: #333333;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 300;
+	font-style: italic;
+
+}
+
+h2{
+	font-family: 'Raleway';
+	color: white;
+	text-align: center;
+	font-weight: 350;
+	font-size: 40px;
+	margin-top: 15%;
+}
+
+p{
+	font-family: 'Raleway';
+	color: #292b2c;
+	font-weight: 300;
+	text-align: left;
+	font-size: 14px;
+}
+
+/*Nav*/
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	padding: 5px 50px;
+	color: white;
+}
+
+ .navbar-default .navbar-nav>li>a{
+ color: #faaf40;
+ font-size: 11px;
+ font-weight: 600;
+ font-family: 'Raleway';
+ padding-top: 2rem;
+ letter-spacing: 2px;
+}
+ .navbar-default .navbar-nav>li>a:hover{
+ color: gray;
+ font-size: 11px;
+ font-weight: 600;
+ font-family: 'Raleway';
+}
+
+.navbar-brand{
+	padding-top: 0.5rem;
+}
+
+.first-section{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+}
+
+.navbar-color{
+	background-color: white;
+	height: 60px;
+}
+
+
+.profile{
+	padding-top: 30vh;
+}
+
+
+.mbr-arrow{
+	top:10vh;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.mbr-arrow a {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    height: 46px;
+    outline-style: none !important;
+    position: relative;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    width: 46px;
+}
+
+.mbr-arrow a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: #faaf40;
+ }
+
+.glyphicon-menu-down{
+font-size: 24px;
+top: 10px;
+}
+
+.second-section{
+	background-color: whitesmoke;
+	padding: 50px;
+}
+
+.thumbnail{
+	margin-top:7rem;
+}
+

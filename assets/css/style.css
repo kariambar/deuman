@@ -1,0 +1,21 @@
+@media (max-width: 850px) and (min-width: 1px){
+
+.hola{
+	background-color: white;
+	width: 100%;
+
+}
+
+.hola ul{
+	text-align: right;
+	color: gray;
+	width: 100%;
+	  display: block;
+  position: relative; 
+
+}
+
+.hola ul li a:hover{
+	color: gray;
+}
+
