@@ -227,7 +227,9 @@ main {
   background-color: #fd7200;
   color: white;
 }
-
+.quienessomos{
+  text-align: center;
+}
 
 /*--------MODAL----------*/
 
@@ -291,6 +293,7 @@ main {
 
 .historyp{
   text-align: justify;
+  padding: 0 20rem;
 }
 
 hr{
@@ -300,10 +303,18 @@ hr{
 }
 .box{
 	background-color: #ffc526;
-	height: 70.5vh;
+	height: 100vh;
 }
 
+.box1 {
+  background-image: url(../img/915.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center bottom;
 
+
+}
 .sinpadding [class*="col-"] {
     padding: 0;
 }
@@ -312,7 +323,7 @@ hr{
 	color: white;
   text-align: center;
   padding: 30px;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 
 .subthree{

@@ -35,7 +35,10 @@
 .box{
 	height: 100vh;
 }
-
+.historyp{
+  text-align: justify;
+  padding: 0 5%;
+}
 /*--------MODAL----------*/
 #modalser{
 	height: 130vh;
