@@ -247,18 +247,19 @@ main {
 .titlesecond{
   color:#fd7200;
   font-weight: 500;
+  margin-left: 2rem;
 }
 
 .modalbox{
+  margin-top: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .list{
   display: flex;
   border: 1px solid #fd7200;
   border-radius: 4px;
   height: 15vh;
-  margin-right: 20rem;
   background-color: rgba( 0, 0, 0, 0.8);
   align-items: center;
   justify-content: center;
@@ -269,7 +270,9 @@ main {
   font-size: 30px;
   margin-left: 1rem;
 }
-
+.segundomodal{
+  margin-top: 5rem;
+}
 
 .time{
   color: white;
