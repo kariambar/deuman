@@ -230,35 +230,52 @@ main {
   color: white;
 }
 
+
+/*--------MODAL----------*/
+
 #modalser{
   background-image: url(../img/manos-1.jpg);
   background-size: cover;
   height: 100vh;
+  background-repeat: no-repeat;
+}
+.bajadamodal{
+  color:white;
+  text-align: center;
+  margin-top: 10px;
+}
+.titlesecond{
+  color:#fd7200;
+  font-weight: 500;
+}
+
+.modalbox{
+  display: flex;
+  justify-content: space-around;
+}
+.list{
+  display: flex;
+  border: 1px solid #fd7200;
+  border-radius: 4px;
+  height: 15vh;
+  margin-right: 20rem;
+  background-color: rgba( 0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
 }
 
 .iconser{
-  color: white;
-  font-size: 40px;
-  margin-left: 2rem;
-  margin-top: 1rem;
+  color: #fd7200;
+  font-size: 30px;
+  margin-left: 1rem;
 }
 
-.titlesecondser{
-  color: white;
-}
 
-.list{
-  display: flex;
-  border: 2px solid #fd7200;
-  border-radius: 2px;
-  width: 10rem;
-  height: 10vh;
-  margin: 0;
-}
 .time{
   color: white;
   font-size: 50px;
 }
+
 /*------------BOX SECTION--------------*/
 .history{
   text-align: center;
@@ -601,6 +618,7 @@ address {
     width: 25%;
     float: left;
 }
+
 
 .productos{
   width: 80%;
