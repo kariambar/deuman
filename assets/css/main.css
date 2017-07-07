@@ -234,7 +234,7 @@ main {
 /*--------MODAL----------*/
 
 #modalser{
-  background-image: url(../img/photo2.jpeg);
+  background-image: url(../img/photo2-1.jpg);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -550,6 +550,7 @@ address {
 
 .ulfooter{
   list-style: none;
+  margin-left: 29%;
 }
 .ulfooter li{
   list-style: none;
