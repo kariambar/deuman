@@ -390,6 +390,19 @@ hr{
  margin-top: 2rem; 
 }
 
+.gallery_product{
+    width: 25%;
+    float: left;
+}
+
+.productos{
+  width: 80%;
+}
+
+.nuevasfotos{
+  margin-top: 2rem;
+}
+
 
 /*--------CONTACTO----------*/
 
@@ -519,25 +532,37 @@ input, select, textarea{
   padding: 40px 0;
 }
 
-.footer-top-layout [class*="col-sm-"]:first-child {
-  padding: 0;
-}
-.footer-top-layout [class*="col-sm-"] {
-  border-right: 2px solid #333333;
-  padding: 0 0 0 28px;
-  
-}
+
 .footer-top-layout {
   color: #ffffff;
 }
 .footer-col-item {
   min-height: 140px;
 }
+.textfooter1{
+  font-size: 14px;
+  color: gray;
+}
 
 address {
   color: #545454;
 }
 
+.ulfooter{
+  list-style: none;
+}
+.ulfooter li{
+  list-style: none;
+}
+.listfooter{
+  color: gray;
+  text-decoration:none; 
+}
+.listfooter:hover{
+  list-style: none;
+  color: white;
+  text-decoration:none; 
+}
 
 .footer-top-layout [class*="col-sm-"]:last-child {
   border-right: medium none;
@@ -626,25 +651,14 @@ address {
   margin: 0;
 }
 .copyright-tag{
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
   color: white;
   font-weight: 300;
   font-size: 12px;
 }
 
-.gallery_product{
-    width: 25%;
-    float: left;
-}
 
-
-.productos{
-  width: 80%;
-}
-
-.nuevasfotos{
-  margin-top: 2rem;
-}
+/*--------FIN FOOTER ----------*/
 
 .navbar-default .navbar-nav>.active>a.smoothScroll{
   background-color: transparent;
