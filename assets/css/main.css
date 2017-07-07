@@ -307,11 +307,11 @@ hr{
 }
 
 .box1 {
-  background-image: url(../img/915.jpg);
+  background-image: url(../img/9152.jpg);
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
-  background-position: center bottom;
+  background-position: center center;
 
 
 }
