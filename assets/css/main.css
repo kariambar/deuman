@@ -234,7 +234,7 @@ main {
 /*--------MODAL----------*/
 
 #modalser{
-  background-image: url(../img/manos-1.jpg);
+  background-image: url(../img/photo2.jpeg);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -245,9 +245,9 @@ main {
   margin-top: 10px;
 }
 .titlesecond{
-  color:#fd7200;
+  color: white;
   font-weight: 500;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .modalbox{
@@ -260,9 +260,14 @@ main {
   border: 1px solid #fd7200;
   border-radius: 4px;
   height: 15vh;
-  background-color: rgba( 0, 0, 0, 0.8);
+  background-color: rgba( 0, 0, 0, 0.9);
   align-items: center;
   justify-content: center;
+}
+
+.list:hover{
+  background-color: rgba( 0, 0, 0, 0.6);
+  color: #fd7200;
 }
 
 .iconser{
