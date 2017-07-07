@@ -6,6 +6,7 @@
 
 body{
 	font-family: 'Raleway', sans-serif;
+   position: relative;
 }
 
 .img-responsive {
@@ -607,4 +608,12 @@ address {
 
 .nuevasfotos{
   margin-top: 2rem;
+}
+
+.navbar-default .navbar-nav>.active>a.smoothScroll{
+  background-color: transparent;
+  color: whitesmoke;
+}
+.navbar-default .navbar-nav>.active>a.smoothScroll:hover{
+  color: gray;
 }
