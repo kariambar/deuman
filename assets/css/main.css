@@ -88,8 +88,6 @@ p{
 	background-repeat: no-repeat;
 	background-position: center center;
   background-attachment: fixed;
-	width: 100%;
-	height: 100vh;
 }
 
 .navbar-color{
@@ -250,6 +248,7 @@ main {
   margin-left: 1rem;
 }
 
+
 .modalbox{
   margin-top: 5rem;
   display: flex;
@@ -260,14 +259,13 @@ main {
   border: 1px solid #fd7200;
   border-radius: 4px;
   height: 15vh;
-  background-color: rgba( 0, 0, 0, 0.9);
+  background-color: rgba( 0, 0, 0, 0.8);
   align-items: center;
   justify-content: center;
 }
 
 .list:hover{
   background-color: rgba( 0, 0, 0, 0.6);
-  color: #fd7200;
 }
 
 .iconser{
@@ -275,6 +273,7 @@ main {
   font-size: 30px;
   margin-left: 1rem;
 }
+
 .segundomodal{
   margin-top: 5rem;
 }
@@ -292,7 +291,6 @@ main {
 
 .historyp{
   text-align: justify;
-  margin: 0 250px;
 }
 
 hr{
@@ -313,13 +311,14 @@ hr{
 .titlethree{
 	color: white;
   text-align: center;
-  margin-top: 12rem;
+  padding: 30px;
+  margin-top: 3rem;
 }
 
 .subthree{
   color: white;
   text-align: justify;
-   margin:0 50px;
+  padding: 0 50px;
 }
 
 /*--------GALERIA Seccion----------*/

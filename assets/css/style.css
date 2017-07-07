@@ -23,4 +23,50 @@
 	background-color: white;
 	width: 100%;
 }
+.first-section{
+	height: 120vh;
+}
+#contacto{
+	height: 100vh;
+}
+.input_textual{
+	margin-top: 2rem;
+}
+.box{
+	height: 100vh;
+}
+
+/*--------MODAL----------*/
+#modalser{
+	height: 130vh;
+}
+.modalbox{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.list{
+	width: 30rem;
+  display: flex;
+  border: 1px solid #fd7200;
+  border-radius: 4px;
+  height: 15vh;
+  background-color: rgba( 0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
