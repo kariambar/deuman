@@ -133,6 +133,8 @@ font-size: 24px;
 top: 10px;
 }
 
+
+
 /*--------icono home bajar----------*/
 
 main {
@@ -211,7 +213,7 @@ main {
 }
 /*------------SECOND SECTION--------------*/
 .second-section{
-	background-color: white;
+	background-color: whitesmoke;
 	padding: 20px;
 }
 
@@ -227,6 +229,35 @@ main {
   color: white;
 }
 
+#modalser{
+  background-image: url(../img/manos-1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.iconser{
+  color: white;
+  font-size: 40px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.titlesecondser{
+  color: white;
+}
+
+.list{
+  display: flex;
+  border: 2px solid #fd7200;
+  border-radius: 2px;
+  width: 10rem;
+  height: 10vh;
+  margin: 0;
+}
+.time{
+  color: white;
+  font-size: 50px;
+}
 /*------------BOX SECTION--------------*/
 .history{
   text-align: center;
@@ -234,7 +265,8 @@ main {
 }
 
 .historyp{
-  text-align: center;
+  text-align: justify;
+  margin: 0 250px;
 }
 
 hr{
@@ -255,14 +287,21 @@ hr{
 .titlethree{
 	color: white;
   text-align: center;
-  padding: 20px 40px ;
+  margin-top: 12rem;
+}
+
+.subthree{
+  color: white;
+  text-align: justify;
+   margin:0 50px;
 }
 
 /*--------GALERIA Seccion----------*/
 
 .four-section{
-  margin-top: 7rem;
-  background-color: whitesmoke;
+  margin-top: 2rem;
+  background-color: white;
+  padding-bottom: 4rem;
 }
 .gallery-title
 {
@@ -311,6 +350,10 @@ hr{
     margin-bottom: 30px;
 
 }
+#showmenu{
+ margin-top: 2rem; 
+}
+
 
 /*--------CONTACTO----------*/
 
@@ -323,6 +366,7 @@ hr{
   background-attachment: fixed;
   background-size: cover;
   background-color: rgba(0,0,0, 0.10);
+  margin-top: 5rem;
 }
 
 .titlecontat{
@@ -550,4 +594,17 @@ address {
   color: white;
   font-weight: 300;
   font-size: 12px;
+}
+
+.gallery_product{
+    width: 25%;
+    float: left;
+}
+
+.productos{
+  width: 80%;
+}
+
+.nuevasfotos{
+  margin-top: 2rem;
 }

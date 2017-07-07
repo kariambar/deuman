@@ -18,7 +18,7 @@
 </head>
 <body>
 <!-- Section Nav-->	
-<section class="first-section">
+<section class="first-section post_article">
 	<nav class="navbar navbar-default navbar-fixed-top" id="header">
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,12 +34,12 @@
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse hola" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="#index">INICIO</a></li>
-				        <li><a href="#quienessomos">QUIENES SOMOS</a></li>
-				        <li><a href="#servicios">SERVICIOS</a></li>
-				        <li><a href="#proyectos">PROYECTOS</a></li>
-				        <li><a href="#contacto">CONTACTO</a></li>
+			      <ul class="nav navbar-nav navbar-right" id="main_nav">
+				        <li><a class="smoothScroll" href="#index">INICIO</a></li>
+				        <li><a class="smoothScroll" href="#quienessomos">QUIENES SOMOS</a></li>
+				        <li><a class="smoothScroll" href="#servicios">SERVICIOS</a></li>
+				        <li><a class="smoothScroll" href="#proyectos">PROYECTOS</a></li>
+				        <li><a class="smoothScroll" href="#contacto">CONTACTO</a></li>
 			      </ul>
 		    </div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-					<div class="mbr-arrow mbr-arrow-floating" aria-hidden="true"><a href="#servicios">					<main>
+					<div class="mbr-arrow mbr-arrow-floating" aria-hidden="true"><a href="#quienessomos">					<main>
   						<div class="arrow animated bounce">
 					</main>
 					</div></a>
@@ -60,13 +60,13 @@
 			</div>
 		</div>
 	</section>
-	<section class="history" id="quienessomos">
+	<section class="history post_article" id="quienessomos">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-					<h1>NUESTRA HISTORIA</h1>
+					<h1>QUIENES SOMOS</h1>
 					<hr>
-					<p class="historyp">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Veritatis vel, laborum voluptatem consequatur molestias iure quas voluptate eius excepturi,<br> esse optio illo nisi reiciendis, doloribus tempore qui perferendis quos recusandaeLorem ipsum dolor sit<br> amet, consectetur adipisicing elit.<br> Veritatis vel, laborum voluptatem consequatur molestias iure quas voluptate eius excepturi,<br> esse optio illo nisi reiciendis, doloribus tempore qui perferendis quos recusandae?</p>
+					<p class="historyp">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Veritatis vel, laborum voluptatem consequatur molestias iure quas voluptate eius excepturi, esse optio illo nisi reiciendis, doloribus tempore qui perferendis quos recusandaeLorem ipsum dolor sitamet, consectetur adipisicing elit. Veritatis vel, laborum voluptatem consequatur molestias iure quas voluptate eius excepturi esse optio illo nisi reiciendis, doloribus tempore qui perferendis quos recusandaeate eius excepturi esse optio illo nisi reiciendis, doloribus tempore qui perferendis quos recusandae</p>
 				</div>
 			</div>
 		</div>			
@@ -76,8 +76,8 @@
 	<div class="container-fluid sinpadding">
 		<div class="row">
 			 <div class="box col-sm-6 col-md-6 col-lg-6 text-center">
-			 	<h1 class="titlethree">NUESTRA VISION</h1>		 
-					<p class="titlethree">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, id, architecto accusamus rem libero nostrum est! Possimus magni dignissimos provident distinctio repudiandae quo voluptates, voluptate, natus iste deleniti laudantium repellendusLorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, id, architecto accusamus rem libero nostrum est! Possimus magni dignissimos provident distinctio repudiandae quo voluptates, voluptate, natus iste deleniti laudantium repellendus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ducimus natus fugiat iusto, error necessitatibus praesentium non magni commodi, earum ut sequi, provident ipsa similique. Veniam commodi nesciunt..</p>	
+			 	<h1 class="titlethree">MISIÓN Y VISIÓN</h1>		 
+					<p class="subthree">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, id, architecto accusamus rem libero nostrum est! Possimus magni dignissimos provident distinctio repudiandae quo voluptates, voluptate, natus iste deleniti laudantium repellendusLorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, id, architecto accusamus rem libero nostrum est! Possimus magni dignissimos provident distinctio repudiandae quo voluptates, voluptate, natus iste deleniti laudantium repellendus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ducimus natus fugiat iusto, error necessitatibus praesentium non magni commodi, earum ut sequi, provident ipsa similique. Veniam commodi nesciunt..</p>	
 	
 			 </div>
 			 	<div class="box1 col-sm-12 col-md-6 col-lg-6">
@@ -93,36 +93,62 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 				<h1 class="serviciostitle">SERVICIOS</h1>
 				<hr>
-					<h4>Servicios Lorem ipsum dolor sit amet.</h4>
 						<div class="row">
 						  <div class="col-sm-6 col-md-4 col-lg-4">
 						    <div class="thumbnail">
 						      <img src="assets/img/herra.jpg" alt="...">
 						      <div class="caption">
-						        <h3>Thumbnail label</h3>
+						        <h3>Construcción y Obras Civiles</h3>
 						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis enim ex, illum tempore voluptatum libero tempora saepe at, suscipit praesentium asperiores! Explicabo illum, deleniti dolor voluptatem, quisquam suscipit qui ducimus!</p>
-						        <a href="#" class="btn btn-default tarjetas" role="button">Button</a>
+						        
+						        <!-- Large modal -->
+<button type="button" class="btn btn-primary tarjetas" data-toggle="modal" data-target=".bs-example-modal-lg">Ver más</button>
+
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <div class="modal-content" id="modalser">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="time" aria-hidden="true">&times;</span></button>
+      <h1 class="titlecontat">SERVICIOS SECUNDARIOS</h1>
+      <hr>
+      <p class="titlethree">Lorem ipsum dolor sit amet,</p>
+		<div class="container">
+			<div class="row">
+			<div class="col-md-4 col-lg-4">
+				<div class="list">
+					<i class="iconser fa fa-cog" aria-hidden="true"></i>
+					<h5 class="titlesecond">Servicio 1</h5>
+					
+				</div>
+					</div>
+			</div>
+		</div>
+    </div>
+  </div>
+
+</div>
 						      </div>
 						    </div>
 						  </div>
 						
 						  <div class="col-sm-6 col-md-4 col-lg-4">
 						    <div class="thumbnail">
-						      <img src="assets/img/herra.jpg" alt="...">
+						      <img src="assets/img/herramientas.jpg" alt="..."">
 						      <div class="caption">
-						        <h3>Thumbnail label</h3>
+						        <h3>Remodelación y Mantención</h3>
 						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis minus nam quisquam. Ipsum ex facere unde exercitationem optio qui quis harum corporis provident. Iure possimus omnis quam ipsum, odio ducimus!</p>
-						        <a href="#" class="btn btn-default tarjetas" role="button">Button</a>
+						        <a href="#" class="btn btn-default tarjetas" role="button">Ver más</a>
 						      </div>
 						    </div>
 						  </div>
 						  <div class="col-sm-6 col-md-4 col-lg-4">
 						    <div class="thumbnail">
-						      <img src="assets/img/herra.jpg" alt="...">
+						      <img src="assets/img/ventas.jpg" alt="...">
 						      <div class="caption">
-						        <h3>Thumbnail label</h3>
+						        <h3>Ventas</h3>
 						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit illo facilis laboriosam nemo, amet veniam minus, itaque iusto eum reiciendis magni inventore nobis fugit vitae quam? Nesciunt voluptates veniam sed!</p>
-						        <a href="#" class="btn btn-default tarjetas" role="button">Button</a>
+						        <a href="#" class="btn btn-default tarjetas" role="button">Ver más</a>
 						      </div>
 						    </div>
 						  </div>
@@ -141,62 +167,69 @@
 	        <hr>
 	        <div align="center">
 	            <button class="btn btn-default filter-button" data-filter="all">Proyectos</button>
-	            <button class="btn btn-default filter-button" data-filter="hdpe">Piscinas</button>
-	            <button class="btn btn-default filter-button" data-filter="sprinkle">Casas</button>
-	            <button class="btn btn-default filter-button" data-filter="spray">Interiores</button>
-	            <button class="btn btn-default filter-button" data-filter="irrigation">Edificios</button>
+	            <button class="btn btn-default filter-button" data-filter="hdpe">Construccion y Obras Civiles</button>
+	            <button class="btn btn-default filter-button" data-filter="sprinkle">Remodelaciones y Mantenciones</button>
+	            <button class="btn btn-default filter-button" data-filter="irrigation">Ventas</button>
 	        </div>
 	        <br/>
 	    </div>
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="assets/img/edificio-01.jpg" class="img-responsive">
+	    <!-- INVENTO-->
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+             <a data-fancybox="gallery" href="assets/img/02.jpg"><img src="assets/img/02.jpg" class="img-responsive">
+                </a>
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/100x100/" class="img-responsive">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <a data-fancybox="gallery" href="assets/img/edificio-01.jpg">
+                <img src="assets/img/02.jpg" class="img-responsive">
+                </a>
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/100x100/" class="img-responsive">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <img src="assets/img/03.jpg" class="img-responsive">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <img src="assets/img/04.jpg" class="img-responsive">
+            </div>
+		<!-- AQUI VA LO OCULTAS -->
+				<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+				<button id="showmenu" class="button btn btn-primary">Ver más</button>
+		<div class="menu" style="display: none;">
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                 <img src="http://fakeimg.pl/265x265/" class="img-responsive">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
+            </div>
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
+            </div>
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                 <img src="http://fakeimg.pl/265x265/" class="img-responsive">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                 <img src="http://fakeimg.pl/265x265/" class="img-responsive">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                 <img src="http://fakeimg.pl/265x265/" class="img-responsive">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                 <img src="http://fakeimg.pl/265x265/" class="img-responsive">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
                 <img src="http://fakeimg.pl/265x265/" class="img-responsive">
             </div>
         </div>
     </div>
+   </div>
+
 </section>
 <!-- Contacto-->
 <section class="contact-section" id="contacto">
@@ -276,9 +309,10 @@
     </div>
   </div>
 </footer>
-	<!-- JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
