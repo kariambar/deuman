@@ -11,6 +11,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,900" rel="stylesheet">
+	<!-- FANCYBOX-->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+	<!-- BOOTSTRAP-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -115,15 +118,15 @@
       												 <!-- Servicios modal -->
 													<div class="container-fluid">
 														<div class="modalbox row">
-															<div class="list col-md-2 col-lg-3 col-xs-3">
+															<div class="list col-md-2 col-lg-3 col-xs-6">
 																<i class="iconser fa fa-cog" aria-hidden="true"></i>
 																<h5 class="titlesecond">Obras Hidráulicas</h5>
 															</div>
-															<div class="list col-md-2 col-lg-3 col-xs-3">
+															<div class="list col-md-2 col-lg-3 col-xs-6">
 																<i class="iconser fa fa-cog" aria-hidden="true"></i>
 																<h5 class="titlesecond">Edificación en Altura</h5>
 															</div>
-															<div class="list col-md-2 col-lg-3 col-xs-3">
+															<div class="list col-md-2 col-lg-3 col-xs6">
 																<i class="iconser fa fa-cog" aria-hidden="true"></i>
 																<h5 class="titlesecond">Viviendas y Centros Comerciales</h5>
 															</div>
@@ -180,72 +183,42 @@
 <section class="four-section" id="proyectos">
 	<div class="container">
 	    <div class="row">
-	        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 	            <h1 class="gallery-title">PROYECTOS</h1>
+	            <p class="pgallery">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 	        </div>
+	        <br>
 	        <hr>
-	        <div align="center">
-	            <button class="btn btn-default filter-button" data-filter="all">Proyectos</button>
-	            <button class="btn btn-default filter-button" data-filter="hdpe">Construccion y Obras Civiles</button>
-	            <button class="btn btn-default filter-button" data-filter="sprinkle">Remodelaciones y Mantenciones</button>
-	            <button class="btn btn-default filter-button" data-filter="irrigation">Ventas</button>
-	        </div>
-	        <br/>
 	    </div>
 	    <!-- INVENTO-->
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-             <a data-fancybox="gallery" href="assets/img/02.jpg"><img src="assets/img/02.jpg" class="img-responsive">
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6">
+             <a data-fancybox="gallery" href="assets/img/slider1.jpg">
+             	<img src="assets/img/slider1.jpg" class="img-responsive">
+             </a>
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6">
+            <a data-fancybox="gallery" href="assets/img/slider2.jpg">
+                <img src="assets/img/slider2.jpg" class="img-responsive">
                 </a>
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-            <a data-fancybox="gallery" href="assets/img/edificio-01.jpg">
-                <img src="assets/img/02.jpg" class="img-responsive">
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6">
+            <a data-fancybox="gallery" href="assets/img/slider5.jpg">
+                <img src="assets/img/slider5.jpg" class="img-responsive">
                 </a>
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="assets/img/03.jpg" class="img-responsive">
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6">
+            <a data-fancybox="gallery" href="assets/img/slider4.jpg">
+                <img src="assets/img/slider4.jpg" class="img-responsive">
+              </a>  
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="assets/img/04.jpg" class="img-responsive">
-            </div>
-		<!-- AQUI VA LO OCULTAS -->
+		<!-- Boton Galeria -->
 				<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-				<button id="showmenu" class="button btn btn-primary">Ver más</button>
-		<div class="menu" style="display: none;">
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-
-            <div class="ocultos gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/265x265/" class="img-responsive">
-            </div>
-        </div>
+				<a href="galeria.html"><button id="showmenu" class="button btn btn-primary">Ver más</button></a>
+		
     </div>
    </div>
 
@@ -254,24 +227,11 @@
 <section class="contact-section" id="contacto">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-xs-4 text-center"> 
-				<i class="icons fa fa-phone" aria-hidden="true"></i>
-					<h6 class="titleicons icons">+5694653354</h6>
-			</div>
-			<div class="col-lg-4 col-xs-4 text-center">
-				<i class="icons fa fa-facebook" aria-hidden="true"></i>
-					<h6 class="titleicons icons">/DeumanProject</h6>
-			</div>
-			<div class="col-lg-4 col-xs-4 text-center">
-				<i class="icons fa fa-envelope-o" aria-hidden="true"></i>
-					<h6 class="titleicons icons">hola@deuman.cl</h6>
-			</div>
-		</div>
-		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 				<h1 class="titlecontat">CONTACTANOS</h1>
 			</div>
 		</div>
+
 		<hr>
 <form>
   <div class="form-group">
@@ -298,30 +258,31 @@
   	<div class="footer-top-layout">
     	<div class="container">
       		<div class="row">
-      			<div class="col-lg-4 col-xs-4">
-        			<img src="assets/img/logobanner.png" alt="logo" width="150" class="logofooter">
+      			<div class="col-lg-4 col-xs-12">
+        			<img src="assets/img/logofooter1.png" alt="logo" class="logofooter">
        			</div>
-	        	<div class="col-lg-4 col-xs-4">
-	              	<p class="textfooter1 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sapiente perspiciatis inventore fugiat numquam, eius, libero corporis quo sunt. Dicta placeat, explicabo illum molestias sint minus, dolor adipisci hic pariatur.</p>
+	        	<div class="col-lg-4 col-xs-9">
+	              	<p class="textfooter1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sapiente perspiciatis inventore fugiat numquam, eius, libero corporis quo sunt. Dicta placeat, explicabo illum molestias sint minus, dolor adipisci hic pariatur.</p>
 	            </div>
-	        	<div class="col-lg-4 col-xs-4">
+	        	<div class="col-lg-4 col-xs-12">
 	              	<ul class="ulfooter">
-	              		<li><a class="listfooter" href="#">Home</a></li>
-	              		<li><a class="listfooter" href="#">Quienes Somos</a></li>
-	              		<li><a class="listfooter" href="#">Servicios</a></li>
-	              		<li><a class="listfooter" href="#">Proyectos</a></li>
-	              		<li><a class="listfooter" href="#">Contacto</a></li>
+	              		<li><a class="listfooter" href="#index">Home</a></li>
+	              		<li><a class="listfooter" href="#quienessomos">Quienes Somos</a></li>
+	              		<li><a class="listfooter" href="#servicios">Servicios</a></li>
+	              		<li><a class="listfooter" href="#proyectos">Proyectos</a></li>
+	              		<li><a class="listfooter" href="#contacto">Contacto</a></li>
 	              	</ul>
 	            </div>
-          </div>
-        </div>
-      </div>
-  <div class="footer-bottom-layout">
-    <div class="socialMedia-footer"> 
+	        </div>
+	            <div class="socialMedia-footer col-lg-6 col-xs-12"> 
     <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
     <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
     <a href="#"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
      </div> 
+            </div>
+        
+      </div>
+  <div class="footer-bottom-layout">
     <div class="copyright-tag">Copyright © 2017 Deuman Project. All Rights Reserved.</div>
     </div>
   </div>
@@ -330,6 +291,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

@@ -27,19 +27,27 @@
 	height: 120vh;
 }
 #contacto{
-	height: 130vh;
+	height: 150vh;
+}
+.listinfo {
+	width: 100%;
 }
 .input_textual{
 	margin-top: 2rem;
 }
 
 .box{
-	height: 800px;
+	height: 130vh;
+	 background-attachment: fixed;
+}
+
+.box1{
+	height: 50vh;
 	 background-attachment: fixed;
 }
 
 .bajo{
-	margin-top: 5rem;
+	margin-top: 4rem;
 }
 .raya{
   width: 20%;
@@ -49,34 +57,54 @@
   text-align: justify;
   padding: 0 5%;
 }
+
+/*--------SERVICIOS----------*/
+
 /*--------MODAL----------*/
 #modalser{
-	height: 130vh;
+	height: 100vh;
 }
 .modalbox{
   margin-top: 1rem;
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-left: 30px;
 }
 .list{
-	width: 30rem;
-  display: flex;
-  border: 1px solid #fd7200;
-  border-radius: 4px;
-  height: 15vh;
-  background-color: rgba( 0, 0, 0, 0.8);
-  align-items: center;
-  justify-content: center;
+	border-radius: none;
+  display: block;
+
+}
+.textfooter1{
+	  margin-left: 3%;
+}
+.gallery_product{
+	width: 50%;
 }
 
+.logofooter{
+  width: 30%;
+  margin-left: 5rem;
+}
 
+.ulfooter{
+  list-style: none;
+  margin-left: 3%;
+  margin-top: 2rem;
+  font-size: 14px;
+}
 
+.socialMedia-footer {
+  margin: 10px 10px;
+}
 
-
-
-
-
-
+.socialMedia-footer > a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
 
 
 
