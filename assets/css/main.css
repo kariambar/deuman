@@ -259,10 +259,12 @@ hr{
 /*--------MODAL----------*/
 
 #modalser{
-  background-image: url(../img/photo2-1.jpg);
+  background-image: url(../img/modal1.jpg);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
 }
 .bajadamodal{
   color:white;
@@ -320,13 +322,13 @@ hr{
 .box{
 	background-color: #ffa70d;
 padding: 50px;
-height: 110vh;
+height: 100vh;
   background-attachment: fixed;
 }
 .box1 {
   background-image: url(../img/techo.jpg);
   background-size: cover;
-  height: 110vh;
+  height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
 
@@ -340,7 +342,7 @@ height: 110vh;
 	color: white;
   text-align: center;
   padding: 30px;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .subthree{
@@ -394,22 +396,13 @@ height: 110vh;
     color: white;
 }
 
-.port-image
-{
-    width: 100%;
-}
 
-.gallery_product
-{
-    margin-bottom: 30px;
-
-}
 #showmenu{
  margin-top: 2rem; 
 }
 
 .gallery_product{
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 .pgallery{
   text-align: center;
@@ -421,6 +414,24 @@ height: 110vh;
 .nuevasfotos{
   margin-top: 2rem;
 }
+
+
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
 
 
 /*--------CONTACTO----------*/

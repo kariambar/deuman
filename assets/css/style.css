@@ -27,7 +27,7 @@
 	height: 120vh;
 }
 #contacto{
-	height: 150vh;
+	height: 100vh;
 }
 .listinfo {
 	width: 100%;
@@ -55,7 +55,7 @@
 }
 .historyp{
   text-align: justify;
-  padding: 0 5%;
+  padding: 0 0.1rem;
 }
 
 /*--------SERVICIOS----------*/
@@ -63,6 +63,11 @@
 /*--------MODAL----------*/
 #modalser{
 	height: 100vh;
+	width: 100%;
+	background-image: url(../img/modal1min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .modalbox{
   margin-top: 1rem;
