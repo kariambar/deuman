@@ -301,15 +301,21 @@ hr{
   height: 20px;
   border-top: 3px solid #fd7200;
 }
+
+.raya{
+  width: 10%;
+  border-top: 3px solid #fd7200;
+}
 .box{
 	background-color: #ffc526;
-	height: 100vh;
+padding: 50px;
+height: 110vh;
+  background-attachment: fixed;
 }
-
 .box1 {
   background-image: url(../img/9152.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   background-attachment: fixed;
   background-position: center center;
 
@@ -323,7 +329,7 @@ hr{
 	color: white;
   text-align: center;
   padding: 30px;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 
 .subthree{

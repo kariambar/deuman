@@ -32,8 +32,18 @@
 .input_textual{
 	margin-top: 2rem;
 }
+
 .box{
-	height: 100vh;
+	height: 800px;
+	 background-attachment: fixed;
+}
+
+.bajo{
+	margin-top: 5rem;
+}
+.raya{
+  width: 20%;
+  border-top: 3px solid #fd7200;
 }
 .historyp{
   text-align: justify;
