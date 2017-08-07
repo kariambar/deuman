@@ -28,6 +28,7 @@
 }
 #contacto{
 	padding:50px;
+  height: 120vh;
 }
 .listinfo {
 	width: 100%;
@@ -115,4 +116,9 @@
   margin-top: 4rem;
   font-size: 20px;
   text-align: left;
+}
+
+.navbar-header, .sr-only, .navbar-collapse, .navbar-default{
+  background-color: white;
+  width: 100%;
 }
