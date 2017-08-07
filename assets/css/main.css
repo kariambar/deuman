@@ -54,6 +54,10 @@ p{
 }
 
 /*------------Nav--------------*/
+.nav{
+  border-bottom-color: red;
+}
+
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
@@ -259,7 +263,15 @@ hr{
 /*--------MODAL----------*/
 
 #modalser{
-  background-image: url(../img/modal1.jpg);
+  background-image: url(../img/modalcontr.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
+}
+#modalser2{
+  background-image: url(../img/ventas.jpg);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -331,6 +343,7 @@ height: 100vh;
   height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center left;
 
 
 }
@@ -569,8 +582,10 @@ height: 100vh;
 }
 .textfooter1{
   margin-top: 4rem;
-  font-size: 13px;
-  color: gray;
+  font-size: 18px;
+  color: white;
+  font-family: 'Montserrat';
+  text-align: center;
 }
 
 
@@ -578,6 +593,7 @@ height: 100vh;
   list-style: none;
   margin-left: 29%;
   margin-top: 4rem;
+  font-size: 16px;
 }
 .ulfooter li{
   list-style: none;
@@ -589,7 +605,7 @@ height: 100vh;
 }
 .listfooter:hover{
   list-style: none;
-  color: white;
+  color: #fd7200;
   text-decoration:none; 
 }
 

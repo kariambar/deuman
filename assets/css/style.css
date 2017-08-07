@@ -27,7 +27,7 @@
 	height: 120vh;
 }
 #contacto{
-	height: 100vh;
+	padding:50px;
 }
 .listinfo {
 	width: 100%;
@@ -64,7 +64,7 @@
 #modalser{
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/modal1min.jpg);
+	background-image: url(../img/modalcontr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -111,8 +111,8 @@
   align-items: center;
 }
 
-
-
-
-
+.textfooter1{
+  margin-top: 4rem;
+  font-size: 20px;
+  text-align: left;
 }
