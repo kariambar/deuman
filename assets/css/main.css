@@ -370,13 +370,13 @@ hr{
 .box{
 	background-color: #ffa70d;
 padding: 50px;
-height: 140vh;
+height: 145vh;
   background-attachment: fixed;
 }
 .box1 {
   background-image: url(../img/techo.jpg);
   background-size: cover;
-  height: 140vh;
+  height: 145vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center left;
