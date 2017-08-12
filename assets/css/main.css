@@ -235,22 +235,19 @@ main {
 	margin-top:4rem;
 }
 
-.tarjetas{
-  background-color: #fd7200;
-  color: white;
-}
+
 .quienessomos{
   text-align: center;
 }
 
 .history{
   text-align: center;
-  padding:5rem;
+  padding:100px;
 }
 
 .historyp{
   text-align: justify;
-  padding: 0 20rem;
+  padding: 0 20%;
   font-size: 16px;
 }
 
@@ -278,6 +275,7 @@ hr{
   width: 100%;
   background-position: center center;
 }
+
 .bajadamodal{
   color:white;
   text-align: center;
@@ -288,7 +286,14 @@ hr{
   font-weight: 500;
   margin-left: 1rem;
 }
-
+.tarjetas{
+  background-color: #fd7200;
+  color: white;
+}
+.tarjetas:hover{
+  background-color: black;
+  color: white;
+}
 
 .modalbox{
   margin-top: 5rem;
@@ -323,7 +328,38 @@ hr{
   color: white;
   font-size: 50px;
 }
-
+.modal1{
+  background-image:  url(../img/modal1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+.modaldos{
+  background-image:  url(../img/modal2.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+.modal3{
+  background-image:  url(../img/modal3.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 50vh;
+}
+.titlemodal3{
+  margin-top: 10rem;
+}
+.list-construc li{
+  list-style: none;
+  text-decoration: none;
+}
+.list-construc li {
+  list-style: none;
+  text-decoration: none;
+  color:white;
+}
+.title-modal2{
+  color: white;
+  font-weight: 700;
+}
 /*------------BOX SECTION--------------*/
 
 
@@ -334,13 +370,13 @@ hr{
 .box{
 	background-color: #ffa70d;
 padding: 50px;
-height: 100vh;
+height: 130vh;
   background-attachment: fixed;
 }
 .box1 {
   background-image: url(../img/techo.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center left;

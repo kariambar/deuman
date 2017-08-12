@@ -1,4 +1,4 @@
-@media (max-width: 850px) and (min-width: 1px){
+@media (max-width: 650px) and (min-width: 1px){
 
 .hola{
 	background-color: white;
@@ -38,7 +38,8 @@
 }
 
 .box{
-	height: 130vh;
+  height: 200vh;
+	padding: 100px;
 	 background-attachment: fixed;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .bajo{
-	margin-top: 4rem;
+	margin-top: 10rem;
 }
 .raya{
   width: 20%;
@@ -56,9 +57,12 @@
 }
 .historyp{
   text-align: justify;
-  padding: 0 0.1rem;
+  padding: 0 0.1%;
 }
-
+.history{
+  text-align: center;
+  padding:30px;
+}
 /*--------SERVICIOS----------*/
 
 /*--------MODAL----------*/
@@ -121,4 +125,8 @@
 .navbar-header, .sr-only, .navbar-collapse, .navbar-default{
   background-color: white;
   width: 100%;
+}
+
+.titleform{
+  font-size: 30px;
 }
